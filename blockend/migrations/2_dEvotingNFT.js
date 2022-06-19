@@ -24,7 +24,14 @@ module.exports = async (deployer, network, accounts) => {
   }
 
   // deploy Crowdfunding
-  await deployer.deploy(dEvotingNFTCont, c.contractAddess, c.tokenIds);
+  await deployer.deploy(
+    dEvotingNFTCont,
+    c.name,
+    c.symbol,
+    c.uri,
+    c.tokenIds,
+    c.tokenSupplies
+  );
 
   const dEvotingNFT = await dEvotingNFTCont.deployed();
 

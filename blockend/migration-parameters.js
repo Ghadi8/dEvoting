@@ -5,6 +5,7 @@ module.exports = {
     uri: "ipfs:///",
     tokenIds: [1, 2],
     tokenSupplies: [500, 50],
+    NFTtokenIds: [1],
   },
   rinkeby: {
     name: "dEvoting",
@@ -12,6 +13,7 @@ module.exports = {
     uri: "ipfs:///",
     tokenIds: [1, 2],
     tokenSupplies: [500, 50],
+    NFTtokenIds: [1],
   },
   mumbai: {
     name: "dEvoting",
@@ -19,6 +21,7 @@ module.exports = {
     uri: "ipfs:///",
     tokenIds: [1, 2],
     tokenSupplies: [500, 50],
+    NFTtokenIds: [1],
   },
   mainnet: {},
 };
